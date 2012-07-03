@@ -452,12 +452,12 @@ p {
     margin:0; 
     line-height:22px;
     font-size:14px;
+    color:#555;
 }
 
-p.super { padding-bottom:10px; }
+p.super { padding-bottom:10px; color:#333; }
 
-a { color:#666; text-decoration:none; }
-
+a, a:visited { color:#666; text-decoration:none; }
 h1 {
     font-size:24px;
     font-style:italic;
@@ -544,12 +544,14 @@ nav ul li a {
     width:570px;
 }
 
-.samkshep { padding-top:40px; }
+.samkshep { padding-top:33px; }
 .samkshep .item { 
     float:left; position:relative; 
     border-bottom:1px solid #c0c0c0; 
     padding:20px 0 15px; 
 }
+
+.index #content h1 { padding-bottom:20px; }
 
 .samkshep .item.last { border-bottom:0; }
 .samkshep .item h2 { font-size:20px; font-weight:300; }
@@ -558,7 +560,7 @@ nav ul li a {
 .where,
 .samkshep .item h3 { padding-bottom:20px; font-size:15px; font-style:italic; font-weight:400; }
 
-#content ul li h3,
+#content ul li h3 { padding:0; }
 .where { padding-bottom:5px; }
 
 .samkshep .item p.row { float:left; position:relative; width:570px; padding:0 0 5px; }

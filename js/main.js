@@ -7,7 +7,7 @@ $(function() {
     $('header nav ul li ul li a').click(function() {
 	//check against IE/FF
 	link = $(this).attr('href');
-	$('body,html').animate({scrollTop: $(link).offset().top-40}, 800);
+	$('body,html').animate({scrollTop: $(link).offset().top-73}, 800);
 	return false;
     });
 });
