@@ -556,7 +556,7 @@ nav ul li a {
 
 #content ul li h3,
 .where,
-.samkshep .item h3 { padding-bottom:20px; font-size:14px; font-style:italic; font-weight:400; }
+.samkshep .item h3 { padding-bottom:20px; font-size:15px; font-style:italic; font-weight:400; }
 
 #content ul li h3,
 .where { padding-bottom:5px; }
@@ -580,7 +580,11 @@ nav ul li a {
 
 #cv .date,
 #resume p.date,
-#resume #relevant_experience ul li .date { float:right; font-style:italic; color:#666; }
+#resume #relevant_experience ul li .date { 
+    float:right; font-style:italic; color:#666; 
+    padding-bottom:0;
+}
+
 #resume .education .item { width:570px; border-bottom-color:#f0f0f0; }
 #resume .education .item  h3, #resume .education .item p { padding-bottom:0; }
 
