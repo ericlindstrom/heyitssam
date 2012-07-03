@@ -7,19 +7,6 @@
 
 ?>
 <!--
-			    <ul>
-				<li><a href="#educational-history">Educational History</a></li>
-				<li><a href="#teaching-experience">Teaching Experience</a></li>
-				<li><a href="#teaching-experience-outside-academia">Outside Academia</a></li>
-				<li><a href="#research-experience">Research Experience</a></li>
-				<li><a href="#research-projects">Research Projects</a></li>
-				<li><a href="#research-based-skills">Research-Based Skills</a></li>
-				<li><a href="#scholarly-presentations">Scholarly Presentations</a></li>
-				<li><a href="#professional-service">Professional Service</a></li>
-				<li><a href="#professional-associations">Professional Associations</a></li>
-				<li><a href="#grants-fellowships-assistantships">Grants/Assitantships</a></li>
-				<li class="last"><a href="#references">References</a></li>
-			    </ul>
 -->
 		<section id="cv">
 		    <h1>Cirriculum Vitae</h1>

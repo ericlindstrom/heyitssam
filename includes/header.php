@@ -29,9 +29,35 @@
 		<h1><a href="/">Samantha K. Shepardson</a></h1>
 		<nav>
 		    <ul>
-			<li><a href="/resume/">Resume</a></li>
-			<li><a href="/cv/">Curriculum Vitae</a></li>
-			<li><a href="/contact/">Contact</a></li>
+			<li class="resume">
+			    <a href="/resume/">Resume</a>
+			    <ul>
+				<li><a href="#objective">Objective</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#relevant-experience">Relevent Experience</a></li>
+				<li><a href="#relevant-coursework-and-skills">Relevent Coursework and Skills</a></li>
+			    </ul>
+			</li>
+			<li class="cv">
+			    <a href="/cv/">Curriculum Vitae</a>
+			    <ul>
+				<li><a href="#educational-history">Educational History</a></li>
+				<li><a href="#teaching-experience">Teaching Experience</a></li>
+				<li><a href="#teaching-experience-outside-academia">Outside Academia</a></li>
+				<li><a href="#research-experience">Research Experience</a></li>
+				<li><a href="#research-projects">Research Projects</a></li>
+				<li><a href="#research-based-skills">Research-Based Skills</a></li>
+				<li><a href="#scholarly-presentations">Scholarly Presentations</a></li>
+				<li><a href="#professional-service">Professional Service</a></li>
+				<li><a href="#professional-associations">Professional Associations</a></li>
+				<li><a href="#grants-fellowships-assistantships">Grants/Assitantships</a></li>
+				<li class="last"><a href="#references">References</a></li>
+			    </ul>
+
+			</li>
+			<li class="contact">
+			    <a href="/contact/">Contact</a>
+			</li>
 		    </ul>
 		</nav>
 	    </header>

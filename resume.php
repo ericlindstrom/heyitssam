@@ -1,19 +1,9 @@
 <?php
     $page = new stdClass;
-    $page->title = ' | Resume';
+    $page->title = 'Resume';
     $page->body_class = 'resume';
-
     include 'includes/header.php';
 ?>
-
-<!-- 
-			    <ul>
-				<li><a href="#objective">Objective</a></li>
-				<li><a href="#education">Education</a></li>
-				<li><a href="#relevant-experience">Relevent Experience</a></li>
-				<li><a href="#relevant-coursework-and-skills">Relevent Coursework and Skills</a></li>
-			    </ul>
--->
 		    
 		<section id="resume">
 		    <h1>Resume</h1>

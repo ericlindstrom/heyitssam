@@ -599,6 +599,12 @@ nav ul li a {
     padding:0 20px 0 0;
 }
 
+nav ul li ul { display:none; visibility:hidden; }
+
+.contact nav ul li.contact ul,
+.resume nav ul li.resume ul,
+.cv nav ul li.cv ul { display:block; visibility:visible; }
+
 
 
 
