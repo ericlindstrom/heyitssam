@@ -1,9 +1,9 @@
-<?php
-    $page = new stdClass;
-    $page->title = 'Resume';
-    $page->body_class = 'resume';
-    include 'includes/header.php';
-?>
+{% extends 'base.html' %}
+{% block title %}{{ block.super }} | Resume {% endblock title %}
+
+{% block body_class %}{{ block.super }} resume{% endblock body_class %}
+
+{% block content %}
 		    
 		<section id="resume">
 		    <h1>Resume</h1>
@@ -123,4 +123,4 @@
 	            </section>
 		</section>
 
-<?php include 'includes/footer.php'; ?>
+{% endblock content %}

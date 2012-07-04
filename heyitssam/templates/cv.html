@@ -1,13 +1,8 @@
-<?php
-    $page = new stdClass;
-    $page->title = 'CV';
-    $page->body_class = 'cv';
+{% extends 'base.html' %}
 
-    include "includes/header.php";
+{% block body_class %}{{ block.super }} cv{% endblock body_class %}
 
-?>
-<!--
--->
+{% block content %}
 		<section id="cv">
 		    <h1>Cirriculum Vitae</h1>
 		    <section id="education">
@@ -284,4 +279,4 @@
 		    </section>
 		</section>
 
-<?php include "includes/footer.php"; ?>
+{% endblock content %}
