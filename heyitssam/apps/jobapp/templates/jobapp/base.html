@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block body_class %}{{ block.super }} jobapp {{ object.slug }}{% endblock body_class %}
+
+{% block home_url %}{% url jobapp:overview object.slug %}{% endblock home_url %}
+
+{% block nav %}
+    {% if object.show_resume %}
+	<li class="resume"><a href="{% url jobapp:resume object.slug %}">Resume</a>
+	    <ul>
+		<li><a href="#objective">Objective</a></li>
+		<li><a href="#education">Education</a></li>
+		<li><a href="#relevant-experience">Relevent Experience</a></li>
+		<li><a href="#relevant-coursework-and-skills">Relevent Coursework and Skills</a></li>
+	    </ul>
+	</li>
+    {% endif %}
+    {% if object.show_cv %}
+	<li class="cv">
+	    <a href="{% url jobapp:cv object.slug %}">Curriculum Vitae</a>
+	    <ul>
+		<li><a href="#educational-history">Educational History</a></li>
+		<li><a href="#teaching-experience">Teaching Experience</a></li>
+		<li><a href="#teaching-experience-outside-academia">Outside Academia</a></li>
+		<li><a href="#research-experience">Research Experience</a></li>
+		<li><a href="#research-projects">Research Projects</a></li>
+		<li><a href="#research-based-skills">Research-Based Skills</a></li>
+		<li><a href="#scholarly-presentations">Scholarly Presentations</a></li>
+		<li><a href="#professional-service">Professional Service</a></li>
+		<li><a href="#professional-associations">Professional Associations</a></li>
+		<li><a href="#grants-fellowships-assistantships">Grants/Assitantships</a></li>
+		<li class="last"><a href="#references">References</a></li>
+	    </ul>
+	</li>
+    {% endif %}
+{% endblock nav %}
+

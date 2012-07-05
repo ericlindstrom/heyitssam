@@ -4,10 +4,10 @@ from django.conf import settings
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^$', 'django.views.generic.simple.direct_to_template', {'template':'index.html', }, name='home'),
-    #url(r'^heyitssam/', include('heyitssam.foo.urls')),
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^', include('apps.jobapp.urls', namespace='jobapp')),
+    #url(r'^heyitssam/', include('heyitssam.foo.urls')),
 )
 
 print settings.STATIC_ROOT

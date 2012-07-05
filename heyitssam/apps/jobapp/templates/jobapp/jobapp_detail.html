@@ -1,0 +1,6 @@
+{% extends 'jobapp/base.html' %}
+{% load markup %}
+
+{% block content %}
+    {{ object.intro|markdown }}
+{% endblock content %}
