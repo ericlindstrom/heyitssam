@@ -1,6 +1,8 @@
 {% extends 'jobapp/base.html' %}
 {% load markup %}
 
-{% block content %}
-    {{ object.intro|markdown }}
-{% endblock content %}
+{% block body_class %}{{ block.super }} index{% endblock body_class %}
+
+{% block jobapp_content %}
+    <section>{{ object.intro|safe }}</section>
+{% endblock jobapp_content %}

@@ -6,12 +6,12 @@
 
 {% block nav %}{{ block.super }}{% endblock nav %}
 
-{% block content %}
+{% block jobapp_content %}
 		<section id="resume">
 		    <h1>Resume</h1>
 		    <section id="objective">
 			<h2 class="title">Objective</h2>
-			{{ object.objective|markdown }}
+			{{ object.objective|safe }}
 		    </section>
 		    <section class="education">
 			<a id="education"></a>
@@ -125,4 +125,4 @@
 	            </section>
 		</section>
 
-{% endblock content %}
+{% endblock jobapp_content %}
