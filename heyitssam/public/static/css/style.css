@@ -458,6 +458,9 @@ p {
 p.super { padding-bottom:10px; color:#333; }
 
 a, a:visited { color:#666; text-decoration:none; }
+a:hover { color:#06e; }
+
+p.comm,
 h1 {
     font-size:24px;
     font-style:italic;
@@ -465,6 +468,9 @@ h1 {
     text-shadow:0 1px #FFF;
     margin:0;
 }
+
+.contact h1,
+.index h1 { padding-bottom:20px; }
 
 h2 { margin:0; padding:0; }
 h3 { margin:0; padding:0; }
@@ -605,6 +611,9 @@ nav ul li ul { display:none; visibility:hidden; }
 .resume nav ul li.resume ul,
 .cv nav ul li.cv ul { display:block; visibility:visible; }
 
+.contact nav ul li.contact > a,
+.resume nav ul li.resume > a,
+.cv nav ul li.cv > a { color:#06e; }
 
 
 

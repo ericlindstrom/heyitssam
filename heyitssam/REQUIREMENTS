@@ -1,2 +1,3 @@
 #run pip install -r REQUIREMENTS
 markdown
+django===1.4

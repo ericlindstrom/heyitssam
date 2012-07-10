@@ -1,2 +1,12 @@
-{% extends 'base.html' %}
-{% block jobapp_content %}{% endblock jobapp_content %}
+{% extends 'jobapp/base.html' %}
+{% block body_class %}{{ block.super }} index{% endblock body_class %}
+{% block jobapp_content %}
+    <section>
+	<h1>Hey! I'm Sam!</h1>
+	<h1>I am a recent graduate from The <a href="http://www.uni.edu/" target="_blank">University of Northern Iowa</a> with a Masters Degree in Social Psychology, living in San Diego, CA.</h1>
+	<p class="comm">Feel free to contact me!</p>
+	<p class="comm email">E: <a href="mailto:samkshep@gmail.com" target="_blank">samkshep@gmail.com</a></p>
+	<p class="comm phone">T: 815.441.5442</p>
+    </section>
+
+{% endblock jobapp_content %}

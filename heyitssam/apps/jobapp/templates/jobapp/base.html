@@ -32,6 +32,9 @@
 	    </ul>
 	</li>
     {% endif %}
+	{% if object %}
+	    <li class="contact"><a href="{% url jobapp:contact object.slug %}">Contact</a></li>
+	{% endif %}
 {% endblock nav %}
 
 {% block content %}
