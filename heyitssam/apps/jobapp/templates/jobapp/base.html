@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 {% block body_class %}{{ block.super }} jobapp {{ object.slug }}{% endblock body_class %}
 
+{% block extra_meta %}
+    {% if object.slug %}<meta name="robots" content="noindex, nofollow">{% endif %}
+{% endblock extra_meta %}
+
 {% block home_url %}{% url jobapp:overview object.slug %}{% endblock home_url %}
 
 {% block nav %}
