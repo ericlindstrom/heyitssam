@@ -12,7 +12,7 @@ AWS_STORAGE_BUCKET_NAME = 'public.heyitssam.com'
 
 STATIC_URL = '//%s/static/' % AWS_STORAGE_BUCKET_NAME
 MEDIA_URL = '//%s/media/' % AWS_STORAGE_BUCKET_NAME
-ADMIN_MEDIA_PREFIX = '//%s/admin/' % AWS_STORAGE_BUCKET_NAME
+ADMIN_MEDIA_PREFIX = 'http://%s/admin/' % AWS_STORAGE_BUCKET_NAME
 
 DEFAULT_FILE_STORAGE = 'heyitssam.util.s3.MediaRootS3BotoStorage'
 STATICFILES_STORAGE = 'heyitssam.util.s3.StaticRootS3BotoStorage'
