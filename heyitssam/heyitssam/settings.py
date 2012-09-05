@@ -1,5 +1,5 @@
 # Django settings for heyitssam project.
-
+import os,sys
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
